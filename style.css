@@ -1,0 +1,123 @@
+header {
+    max-width: 840px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-weight: normal;
+}
+#nav {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 350px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+.main img {
+    width: 100%;
+    margin-bottom: 87px;
+}
+.about {
+    max-width: 840px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.comment2 {
+    margin: 37px 0 47px;
+}
+.works {
+    max-width: 840px;
+    margin: 133px auto;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+.images img {
+    width: 264px;
+    margin-bottom: 12px;
+}
+.news {
+    max-width: 840px;
+    margin: 0 auto 133px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14.4px;
+}
+tr{
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px 0;
+}
+th{
+    width: 20%;
+    padding: 18px;
+    font-weight: normal;
+}
+td{
+    width: 80%;
+    padding: 18px;
+}
+.contact {
+    max-width: 840px;
+    margin: 0 auto 133px;
+}
+.contact-form{
+    text-align: center;
+}
+.contact-form .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.contact-form .item .label {
+    float: left;
+    padding: 5px;
+    margin:0;
+}
+
+
+.contact-form .item input[type=text],
+.contact-form .item input[type=email],
+.contact-form .item textarea {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    width: 200px;
+    height: 53px;
+    background-color: black;
+    color: #ccc;
+    margin: 20px auto 0;
+    font-size: 14.4px;
+}
+
+footer {
+    background-color: black;
+    color: #ccc;
+    font-size: 10px;
+    margin-bottom: 0;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
